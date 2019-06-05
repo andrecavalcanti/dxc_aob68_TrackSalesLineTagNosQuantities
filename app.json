@@ -1,0 +1,27 @@
+{
+  "id": "910709eb-117a-4db3-add5-c7d7e207bc42",
+  "name": "DXC Track Sales Line Tag Nos.",
+  "publisher": "DXC",
+  "brief": "",
+  "description": "AOB-68",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50000,
+    "to": 50149
+  },
+  "target": "Internal",
+  "showMyCode": true,
+  "breakonerror" : true,
+  "runtime": "1.0"
+}
