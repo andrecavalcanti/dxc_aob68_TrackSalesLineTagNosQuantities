@@ -1,4 +1,4 @@
-table 50002 "DXC Tag Info"
+table 50003 "DXC Tag Info"
 {
     Caption = 'Tag Info';
     DrillDownPageID = "DXC Tag Info";

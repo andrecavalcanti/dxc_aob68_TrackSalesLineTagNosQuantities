@@ -1,4 +1,4 @@
-page 50000 "DXC Tag Info"
+page 50002 "DXC Tag Info"
 {    
     AutoSplitKey = true;
     DelayedInsert = true;
