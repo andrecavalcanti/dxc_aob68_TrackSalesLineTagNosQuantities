@@ -2,7 +2,7 @@ tableextension 50049 "DXCSalesLineArchiveExt" extends "Sales Line Archive"
 {
     fields
     {
-        field(50000;"DXC No. of Tags";Integer)
+        field(50003;"DXC No. of Tags";Integer)
         {
             BlankZero = true;
             CalcFormula = Count("DXC Tag Info" WHERE ("Document Type"=FIELD("Document Type"),

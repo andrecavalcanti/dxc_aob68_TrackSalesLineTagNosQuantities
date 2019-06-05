@@ -2,7 +2,7 @@ tableextension 50048 "DXCSalesInvoiceLineExt" extends "Sales Invoice Line"
 {   
     fields
     {
-        field(50000;"DXC No. of Tags";Integer)
+        field(50003;"DXC No. of Tags";Integer)
         {
             BlankZero = true;
             CalcFormula = Count("DXC Tag Info" WHERE ("Document Type"=CONST(Order),
@@ -14,7 +14,7 @@ tableextension 50048 "DXCSalesInvoiceLineExt" extends "Sales Invoice Line"
             FieldClass = FlowField;
         }
 
-        field(50001;"DXC Order No.";Code[20])
+        field(50004;"DXC Order No.";Code[20])
         {
             CaptionML = ENU='Order No.',
                         ESM='Nº pedido',

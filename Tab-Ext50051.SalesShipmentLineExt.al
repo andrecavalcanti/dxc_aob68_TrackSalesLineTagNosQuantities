@@ -2,7 +2,7 @@ tableextension 50051 "SalesShipmentLineExt" extends "Sales Shipment Line"
 {
     fields
     {
-        field(50000;"DXC No. of Tags";Integer)
+        field(50003;"DXC No. of Tags";Integer)
         {
             BlankZero = true;
             CalcFormula = Count("DXC Tag Info" WHERE ("Document Type"=CONST(Order),

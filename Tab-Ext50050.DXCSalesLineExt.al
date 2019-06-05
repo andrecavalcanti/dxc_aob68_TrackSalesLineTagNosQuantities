@@ -3,7 +3,7 @@ tableextension 50050 "DXCSalesLineExt" extends "Sales Line"
     fields
     {
         
-        field(50000;"DXC No. of Tags";Integer)
+        field(50003;"DXC No. of Tags";Integer)
         {
             BlankZero = true;
             CalcFormula = Count("DXC Tag Info" WHERE ("Document Type"=FIELD("Document Type"),
@@ -14,7 +14,7 @@ tableextension 50050 "DXCSalesLineExt" extends "Sales Line"
             Editable = false;
             FieldClass = FlowField;
         }
-        field(50001;"DXC Order No.";Code[20])
+        field(50004;"DXC Order No.";Code[20])
         {
             CaptionML = ENU='Order No.',
                         ESM='Nº pedido',
